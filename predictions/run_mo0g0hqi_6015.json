@@ -1,0 +1,184 @@
+{
+  "generated_at": "2026-04-15T19:28:37.881779+00:00",
+  "card_date": "2026-04-16",
+  "races": {
+    "3": [
+      {
+        "rank": 1,
+        "horse_name": "Lucy McGee",
+        "jockey": "L Saez",
+        "trainer": "V H Oliver",
+        "odds": 4.0,
+        "predicted_finish": 3.686,
+        "model_prob": 0.1338,
+        "market_prob": 0.2,
+        "edge": -0.0662
+      },
+      {
+        "rank": 2,
+        "horse_name": "Conquering Marin",
+        "jockey": "I Ortiz, Jr.",
+        "trainer": "B P Walsh",
+        "odds": 3.5,
+        "predicted_finish": 3.992,
+        "model_prob": 0.1092,
+        "market_prob": 0.2222,
+        "edge": -0.1131
+      },
+      {
+        "rank": 3,
+        "horse_name": "Swirling Seas",
+        "jockey": "L Machado",
+        "trainer": "B Colebrook",
+        "odds": 6.0,
+        "predicted_finish": 4.04,
+        "model_prob": 0.1057,
+        "market_prob": 0.1429,
+        "edge": -0.0371
+      },
+      {
+        "rank": 4,
+        "horse_name": "Headspin",
+        "jockey": "J Alvarado",
+        "trainer": "W I Mott",
+        "odds": 4.5,
+        "predicted_finish": 4.087,
+        "model_prob": 0.1024,
+        "market_prob": 0.1818,
+        "edge": -0.0794
+      },
+      {
+        "rank": 5,
+        "horse_name": "Gellhorn",
+        "jockey": "F Prat",
+        "trainer": "D Gargan",
+        "odds": 6.0,
+        "predicted_finish": 4.117,
+        "model_prob": 0.1004,
+        "market_prob": 0.1429,
+        "edge": -0.0424
+      },
+      {
+        "rank": 6,
+        "horse_name": "Aurora Sky",
+        "jockey": "T Gaffalione",
+        "trainer": "J Sharp",
+        "odds": 5.0,
+        "predicted_finish": 4.147,
+        "model_prob": 0.0984,
+        "market_prob": 0.1667,
+        "edge": -0.0683
+      },
+      {
+        "rank": 7,
+        "horse_name": "Crescent Sky",
+        "jockey": "C J Lanerie",
+        "trainer": "A G Cohn",
+        "odds": 20.0,
+        "predicted_finish": 4.829,
+        "model_prob": 0.0625,
+        "market_prob": 0.0476,
+        "edge": 0.0149
+      },
+      {
+        "rank": 8,
+        "horse_name": "Poverty With Aview",
+        "jockey": "J J Radosevich",
+        "trainer": "J Lejzerowicz",
+        "odds": 12.0,
+        "predicted_finish": 5.222,
+        "model_prob": 0.0481,
+        "market_prob": 0.0769,
+        "edge": -0.0289
+      },
+      {
+        "rank": 9,
+        "horse_name": "Red Beach",
+        "jockey": "J Castellano",
+        "trainer": "G D Sacco",
+        "odds": 20.0,
+        "predicted_finish": 5.382,
+        "model_prob": 0.0432,
+        "market_prob": 0.0476,
+        "edge": -0.0044
+      },
+      {
+        "rank": 10,
+        "horse_name": "One Happy Island",
+        "jockey": "A Achard",
+        "trainer": "M Kordenbrock",
+        "odds": 15.0,
+        "predicted_finish": 5.717,
+        "model_prob": 0.0346,
+        "market_prob": 0.0625,
+        "edge": -0.0279
+      },
+      {
+        "rank": 11,
+        "horse_name": "Llamp",
+        "jockey": "B Curtis",
+        "trainer": "E Kenneally",
+        "odds": 10.0,
+        "predicted_finish": 5.922,
+        "model_prob": 0.0301,
+        "market_prob": 0.0909,
+        "edge": -0.0608
+      },
+      {
+        "rank": 12,
+        "horse_name": "Victor Valley",
+        "jockey": "A Calleja",
+        "trainer": "I Acevedo",
+        "odds": 20.0,
+        "predicted_finish": 6.031,
+        "model_prob": 0.028,
+        "market_prob": 0.0476,
+        "edge": -0.0196
+      },
+      {
+        "rank": 13,
+        "horse_name": "Whiskey Serenade",
+        "jockey": "M Garcia",
+        "trainer": "J Butcher",
+        "odds": 30.0,
+        "predicted_finish": 6.067,
+        "model_prob": 0.0274,
+        "market_prob": 0.0323,
+        "edge": -0.0049
+      },
+      {
+        "rank": 14,
+        "horse_name": "Loriebeth",
+        "jockey": "M Gutierrez",
+        "trainer": "A B Taylor",
+        "odds": 30.0,
+        "predicted_finish": 6.077,
+        "model_prob": 0.0272,
+        "market_prob": 0.0323,
+        "edge": -0.0051
+      },
+      {
+        "rank": 15,
+        "horse_name": "Avila",
+        "jockey": "J N Hernandez",
+        "trainer": "M Douaihy",
+        "odds": 30.0,
+        "predicted_finish": 6.095,
+        "model_prob": 0.0269,
+        "market_prob": 0.0323,
+        "edge": -0.0054
+      },
+      {
+        "rank": 16,
+        "horse_name": "Marcheline",
+        "jockey": "J R Velazquez",
+        "trainer": "V H Oliver",
+        "odds": 20.0,
+        "predicted_finish": 6.382,
+        "model_prob": 0.0222,
+        "market_prob": 0.0476,
+        "edge": -0.0254
+      }
+    ]
+  }
+}

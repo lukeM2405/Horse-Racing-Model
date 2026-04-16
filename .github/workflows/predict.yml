@@ -1,0 +1,82 @@
+name: predict
+
+on:
+  repository_dispatch:
+    types: [predict]
+
+permissions:
+  contents: write
+
+jobs:
+  run-model:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: .github/scripts/requirements-predict.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r .github/scripts/requirements-predict.txt
+
+      - name: Save dispatch payload and extract metadata
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: |
+          mkdir -p .dispatch
+          printf '%s' "$PAYLOAD" > .dispatch/payload.json
+          RUN_ID=$(python -c "import json; print(json.load(open('.dispatch/payload.json')).get('run_id','unknown'))")
+          RACE_NUM=$(python -c "import json; p=json.load(open('.dispatch/payload.json')); v=p.get('race_number'); print('' if v in (None,'') else int(v))")
+          CARD_DATE=$(python -c "import json,re,os; p=json.load(open('.dispatch/payload.json')); cp=p.get('card_path') or ''; m=re.search(r'(\d{4}-\d{2}-\d{2})', os.path.basename(cp)); print(m.group(1) if m else '')")
+          TRACK_CODE=$(python -c "import json,re,os; p=json.load(open('.dispatch/payload.json')); cp=p.get('card_path') or ''; m=re.match(r'([A-Za-z]{2,4})_\d{4}-\d{2}-\d{2}\.csv$', os.path.basename(cp)); print(m.group(1).upper() if m else '')")
+          echo "RUN_ID=$RUN_ID" >> $GITHUB_ENV
+          echo "RACE_NUM=$RACE_NUM" >> $GITHUB_ENV
+          echo "CARD_DATE=$CARD_DATE" >> $GITHUB_ENV
+          echo "TRACK_CODE=$TRACK_CODE" >> $GITHUB_ENV
+          echo "--- run_id: $RUN_ID  race: $RACE_NUM  card_date: $CARD_DATE  track: $TRACK_CODE ---"
+          cat .dispatch/payload.json
+
+      - name: Apply edits to base card -> HorseRacing/test_data.csv
+        run: python .github/scripts/apply_edits.py
+
+      - name: Run prediction model
+        working-directory: HorseRacing
+        env:
+          PREDICT_SKIP_VISUALS: "1"
+        run: python predict.py
+
+      - name: Convert to JSON (predict_api.py)
+        working-directory: HorseRacing
+        run: |
+          mkdir -p ../predictions
+          python predict_api.py \
+            --input race_predictions/all_race_predictions.csv \
+            --output ../predictions/run_${RUN_ID}.json \
+            --card-date "${CARD_DATE}" \
+            --track-code "${TRACK_CODE}"
+
+      - name: Cleanup superseded predictions (>2 min old, same track+card+race)
+        if: env.RACE_NUM != '' && env.CARD_DATE != '' && env.TRACK_CODE != ''
+        run: python .github/scripts/cleanup_predictions.py
+        env:
+          KEEP_RUN_ID: ${{ env.RUN_ID }}
+          CARD_DATE: ${{ env.CARD_DATE }}
+          RACE_NUM: ${{ env.RACE_NUM }}
+          TRACK_CODE: ${{ env.TRACK_CODE }}
+          MIN_AGE_SECONDS: "120"
+
+      - name: Commit predictions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add -A predictions/
+          git commit -m "predict: run_${RUN_ID}"
+          git push

@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-04-15T20:02:52.221037+00:00",
+  "track_code": "KEE",
+  "card_date": "2026-04-16",
+  "races": {
+    "1": [
+      {
+        "rank": 1,
+        "horse_name": "Emirates Affair",
+        "jockey": "I Ortiz, Jr.",
+        "trainer": "R B Hess, Jr.",
+        "odds": 0.6,
+        "predicted_finish": 2.131,
+        "model_prob": 0.4643,
+        "market_prob": 0.625,
+        "edge": -0.1607
+      },
+      {
+        "rank": 2,
+        "horse_name": "Coastline Hottie",
+        "jockey": "L Machado",
+        "trainer": "C W Axmaker",
+        "odds": 4.0,
+        "predicted_finish": 3.501,
+        "model_prob": 0.1862,
+        "market_prob": 0.2,
+        "edge": -0.0138
+      },
+      {
+        "rank": 3,
+        "horse_name": "Devil of Paradis",
+        "jockey": "C Roman",
+        "trainer": "M Evans II",
+        "odds": 4.5,
+        "predicted_finish": 3.618,
+        "model_prob": 0.1722,
+        "market_prob": 0.1818,
+        "edge": -0.0096
+      },
+      {
+        "rank": 4,
+        "horse_name": "Sunset Harbour",
+        "jockey": "M Gutierrez",
+        "trainer": "C A David",
+        "odds": 8.0,
+        "predicted_finish": 4.843,
+        "model_prob": 0.0761,
+        "market_prob": 0.1111,
+        "edge": -0.035
+      },
+      {
+        "rank": 5,
+        "horse_name": "So Far So Good",
+        "jockey": "W Antongeorgi III",
+        "trainer": "A Decker",
+        "odds": 12.0,
+        "predicted_finish": 5.672,
+        "model_prob": 0.0438,
+        "market_prob": 0.0769,
+        "edge": -0.0331
+      },
+      {
+        "rank": 6,
+        "horse_name": "Ask Amanda",
+        "jockey": "W A Rodriguez",
+        "trainer": "J Antonuik",
+        "odds": 20.0,
+        "predicted_finish": 6.118,
+        "model_prob": 0.0325,
+        "market_prob": 0.0476,
+        "edge": -0.0151
+      },
+      {
+        "rank": 7,
+        "horse_name": "Scoop",
+        "jockey": "A Calleja",
+        "trainer": "M Salas",
+        "odds": 30.0,
+        "predicted_finish": 6.526,
+        "model_prob": 0.0248,
+        "market_prob": 0.0323,
+        "edge": -0.0075
+      }
+    ]
+  }
+}

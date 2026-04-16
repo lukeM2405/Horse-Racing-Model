@@ -1,0 +1,8 @@
+# Production-only deps for the predict workflow. matplotlib/seaborn are
+# intentionally omitted — predict.py is run with PREDICT_SKIP_VISUALS=1 in
+# the workflow, so no plotting is needed.
+pandas>=1.5
+numpy>=1.21,<2
+scikit-learn==1.6.1
+joblib>=1.1
+lightgbm>=3.3

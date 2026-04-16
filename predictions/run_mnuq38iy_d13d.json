@@ -1,0 +1,1182 @@
+{
+  "generated_at": "2026-04-11T19:24:00.549768+00:00",
+  "races": {
+    "1": [
+      {
+        "rank": 1,
+        "horse_name": "Speed Skater",
+        "jockey": "F Prat",
+        "trainer": "B H Cox",
+        "odds": 3.5,
+        "predicted_finish": 3.205,
+        "model_prob": 0.2204,
+        "market_prob": 0.2222,
+        "edge": -0.0018
+      },
+      {
+        "rank": 2,
+        "horse_name": "Nuts and Bolts",
+        "jockey": "B J Hernandez, Jr.",
+        "trainer": "K G McPeek",
+        "odds": 4.5,
+        "predicted_finish": 3.576,
+        "model_prob": 0.1722,
+        "market_prob": 0.1818,
+        "edge": -0.0096
+      },
+      {
+        "rank": 3,
+        "horse_name": "Buckeye Bombshell",
+        "jockey": "D Cannon",
+        "trainer": "K G McPeek",
+        "odds": 4.0,
+        "predicted_finish": 4.079,
+        "model_prob": 0.1231,
+        "market_prob": 0.2,
+        "edge": -0.0769
+      },
+      {
+        "rank": 4,
+        "horse_name": "Knockonwood",
+        "jockey": "I Ortiz, Jr.",
+        "trainer": "J Sharp",
+        "odds": 8.0,
+        "predicted_finish": 4.244,
+        "model_prob": 0.1103,
+        "market_prob": 0.1111,
+        "edge": -0.0008
+      },
+      {
+        "rank": 5,
+        "horse_name": "Lexico",
+        "jockey": "T Gaffalione",
+        "trainer": "J Sharp",
+        "odds": 6.0,
+        "predicted_finish": 4.248,
+        "model_prob": 0.11,
+        "market_prob": 0.1429,
+        "edge": -0.0329
+      },
+      {
+        "rank": 6,
+        "horse_name": "West Coast Dream",
+        "jockey": "J J Hernandez",
+        "trainer": "Other",
+        "odds": 6.0,
+        "predicted_finish": 4.287,
+        "model_prob": 0.1071,
+        "market_prob": 0.1429,
+        "edge": -0.0357
+      },
+      {
+        "rank": 7,
+        "horse_name": "Galatina",
+        "jockey": "L Saez",
+        "trainer": "K Brion",
+        "odds": 8.0,
+        "predicted_finish": 5.116,
+        "model_prob": 0.0617,
+        "market_prob": 0.1111,
+        "edge": -0.0494
+      },
+      {
+        "rank": 8,
+        "horse_name": "Queen McKinzie",
+        "jockey": "J Alvarado",
+        "trainer": "D Salvador",
+        "odds": 10.0,
+        "predicted_finish": 5.134,
+        "model_prob": 0.0609,
+        "market_prob": 0.0909,
+        "edge": -0.03
+      },
+      {
+        "rank": 9,
+        "horse_name": "Starbrite Starlite",
+        "jockey": "L Machado",
+        "trainer": "Other",
+        "odds": 15.0,
+        "predicted_finish": 5.994,
+        "model_prob": 0.0343,
+        "market_prob": 0.0625,
+        "edge": -0.0282
+      }
+    ],
+    "2": [
+      {
+        "rank": 1,
+        "horse_name": "Beale Street Boy",
+        "jockey": "L Machado",
+        "trainer": "B Colebrook",
+        "odds": 2.0,
+        "predicted_finish": 2.646,
+        "model_prob": 0.3882,
+        "market_prob": 0.3333,
+        "edge": 0.0548
+      },
+      {
+        "rank": 2,
+        "horse_name": "Frosted Mug",
+        "jockey": "L Saez",
+        "trainer": "I R Wilkes",
+        "odds": 8.0,
+        "predicted_finish": 3.944,
+        "model_prob": 0.1634,
+        "market_prob": 0.1111,
+        "edge": 0.0523
+      },
+      {
+        "rank": 3,
+        "horse_name": "September Silver",
+        "jockey": "A Concepcion",
+        "trainer": "D Stewart",
+        "odds": 5.0,
+        "predicted_finish": 4.375,
+        "model_prob": 0.1226,
+        "market_prob": 0.1667,
+        "edge": -0.0441
+      },
+      {
+        "rank": 4,
+        "horse_name": "Next Time",
+        "jockey": "T Gaffalione",
+        "trainer": "D Jacobson",
+        "odds": 7.2,
+        "predicted_finish": 4.799,
+        "model_prob": 0.0924,
+        "market_prob": 0.122,
+        "edge": -0.0295
+      },
+      {
+        "rank": 5,
+        "horse_name": "Dispersion",
+        "jockey": "F De La Cruz",
+        "trainer": "E N Foster",
+        "odds": 8.0,
+        "predicted_finish": 5.127,
+        "model_prob": 0.0743,
+        "market_prob": 0.1111,
+        "edge": -0.0369
+      },
+      {
+        "rank": 6,
+        "horse_name": "Southern Soul",
+        "jockey": "S Pauly",
+        "trainer": "I Bahena",
+        "odds": 20.0,
+        "predicted_finish": 6.042,
+        "model_prob": 0.0403,
+        "market_prob": 0.0476,
+        "edge": -0.0073
+      },
+      {
+        "rank": 7,
+        "horse_name": "In the Tank",
+        "jockey": "B Curtis",
+        "trainer": "C Torres",
+        "odds": 20.0,
+        "predicted_finish": 6.155,
+        "model_prob": 0.0374,
+        "market_prob": 0.0476,
+        "edge": -0.0102
+      },
+      {
+        "rank": 8,
+        "horse_name": "Cardinal Union",
+        "jockey": "J A Torres",
+        "trainer": "Other",
+        "odds": 27.0,
+        "predicted_finish": 6.571,
+        "model_prob": 0.0283,
+        "market_prob": 0.0357,
+        "edge": -0.0074
+      },
+      {
+        "rank": 9,
+        "horse_name": "Roundingthird",
+        "jockey": "E Morales",
+        "trainer": "J L Langemeier",
+        "odds": 18.0,
+        "predicted_finish": 6.627,
+        "model_prob": 0.0273,
+        "market_prob": 0.0526,
+        "edge": -0.0253
+      },
+      {
+        "rank": 10,
+        "horse_name": "Janey's Flyin",
+        "jockey": "D Machado",
+        "trainer": "Other",
+        "odds": 19.0,
+        "predicted_finish": 6.71,
+        "model_prob": 0.0258,
+        "market_prob": 0.05,
+        "edge": -0.0242
+      }
+    ],
+    "3": [
+      {
+        "rank": 1,
+        "horse_name": "Eye Dee Kay",
+        "jockey": "I Ortiz, Jr.",
+        "trainer": "K LaRose",
+        "odds": 1.5,
+        "predicted_finish": 2.256,
+        "model_prob": 0.5097,
+        "market_prob": 0.4,
+        "edge": 0.1097
+      },
+      {
+        "rank": 2,
+        "horse_name": "Fountain Run",
+        "jockey": "D Sheehy",
+        "trainer": "A M Meah",
+        "odds": 5.0,
+        "predicted_finish": 4.341,
+        "model_prob": 0.127,
+        "market_prob": 0.1667,
+        "edge": -0.0397
+      },
+      {
+        "rank": 3,
+        "horse_name": "Hope Joe's Right",
+        "jockey": "C Barbosa",
+        "trainer": "K A Fernandez",
+        "odds": 8.0,
+        "predicted_finish": 4.479,
+        "model_prob": 0.1158,
+        "market_prob": 0.1111,
+        "edge": 0.0047
+      },
+      {
+        "rank": 4,
+        "horse_name": "Tres Soles",
+        "jockey": "T Gaffalione",
+        "trainer": "Other",
+        "odds": 6.0,
+        "predicted_finish": 4.741,
+        "model_prob": 0.0973,
+        "market_prob": 0.1429,
+        "edge": -0.0456
+      },
+      {
+        "rank": 5,
+        "horse_name": "King of Hollywood",
+        "jockey": "L Machado",
+        "trainer": "J K Sweezey",
+        "odds": 9.0,
+        "predicted_finish": 5.099,
+        "model_prob": 0.0766,
+        "market_prob": 0.1,
+        "edge": -0.0234
+      },
+      {
+        "rank": 6,
+        "horse_name": "Ice Minister",
+        "jockey": "J N Hernandez",
+        "trainer": "D Hancock",
+        "odds": 24.0,
+        "predicted_finish": 5.868,
+        "model_prob": 0.0459,
+        "market_prob": 0.04,
+        "edge": 0.0059
+      },
+      {
+        "rank": 7,
+        "horse_name": "Non Fungible",
+        "jockey": "S Pauly",
+        "trainer": "M Dalton",
+        "odds": 21.0,
+        "predicted_finish": 6.623,
+        "model_prob": 0.0277,
+        "market_prob": 0.0455,
+        "edge": -0.0177
+      }
+    ],
+    "4": [
+      {
+        "rank": 1,
+        "horse_name": "Rockin Robin",
+        "jockey": "T Gaffalione",
+        "trainer": "M E Casse",
+        "odds": 4.5,
+        "predicted_finish": 3.935,
+        "model_prob": 0.2664,
+        "market_prob": 0.1818,
+        "edge": 0.0846
+      },
+      {
+        "rank": 2,
+        "horse_name": "Cookie's Run",
+        "jockey": "B J Hernandez, Jr.",
+        "trainer": "K G McPeek",
+        "odds": 6.0,
+        "predicted_finish": 3.947,
+        "model_prob": 0.2644,
+        "market_prob": 0.1429,
+        "edge": 0.1215
+      },
+      {
+        "rank": 3,
+        "horse_name": "Pinto",
+        "jockey": "J Alvarado",
+        "trainer": "Other",
+        "odds": 5.2,
+        "predicted_finish": 4.41,
+        "model_prob": 0.1941,
+        "market_prob": 0.1613,
+        "edge": 0.0328
+      },
+      {
+        "rank": 4,
+        "horse_name": "Mon Reve",
+        "jockey": "L Saez",
+        "trainer": "V H Oliver",
+        "odds": 7.0,
+        "predicted_finish": 4.952,
+        "model_prob": 0.1352,
+        "market_prob": 0.125,
+        "edge": 0.0102
+      },
+      {
+        "rank": 5,
+        "horse_name": "Once Upon a Time",
+        "jockey": "D L Parker",
+        "trainer": "M Dalton",
+        "odds": 10.0,
+        "predicted_finish": 5.733,
+        "model_prob": 0.0804,
+        "market_prob": 0.0909,
+        "edge": -0.0106
+      },
+      {
+        "rank": 6,
+        "horse_name": "Willowy",
+        "jockey": "S E Bermudez",
+        "trainer": "J J Manning, Jr.",
+        "odds": 19.0,
+        "predicted_finish": 6.184,
+        "model_prob": 0.0595,
+        "market_prob": 0.05,
+        "edge": 0.0095
+      }
+    ],
+    "5": [
+      {
+        "rank": 1,
+        "horse_name": "Minotaur",
+        "jockey": "J Rosario",
+        "trainer": "D Gargan",
+        "odds": 4.0,
+        "predicted_finish": 3.839,
+        "model_prob": 0.2261,
+        "market_prob": 0.2,
+        "edge": 0.0261
+      },
+      {
+        "rank": 2,
+        "horse_name": "Comprehensive",
+        "jockey": "M Gutierrez",
+        "trainer": "B A Lynch",
+        "odds": 2.5,
+        "predicted_finish": 3.868,
+        "model_prob": 0.2217,
+        "market_prob": 0.2857,
+        "edge": -0.064
+      },
+      {
+        "rank": 3,
+        "horse_name": "Wrathchild",
+        "jockey": "T Gaffalione",
+        "trainer": "B P Walsh",
+        "odds": 5.0,
+        "predicted_finish": 4.808,
+        "model_prob": 0.1185,
+        "market_prob": 0.1667,
+        "edge": -0.0482
+      },
+      {
+        "rank": 4,
+        "horse_name": "Newman",
+        "jockey": "B Curtis",
+        "trainer": "E Kenneally",
+        "odds": 8.0,
+        "predicted_finish": 5.039,
+        "model_prob": 0.1016,
+        "market_prob": 0.1111,
+        "edge": -0.0095
+      },
+      {
+        "rank": 5,
+        "horse_name": "Underappreciated",
+        "jockey": "E Morales",
+        "trainer": "J Ennis",
+        "odds": 15.0,
+        "predicted_finish": 5.562,
+        "model_prob": 0.0717,
+        "market_prob": 0.0625,
+        "edge": 0.0092
+      },
+      {
+        "rank": 6,
+        "horse_name": "Bhatia",
+        "jockey": "I Ortiz, Jr.",
+        "trainer": "C Davis",
+        "odds": 12.0,
+        "predicted_finish": 5.605,
+        "model_prob": 0.0697,
+        "market_prob": 0.0769,
+        "edge": -0.0073
+      },
+      {
+        "rank": 7,
+        "horse_name": "Tilson",
+        "jockey": "L Machado",
+        "trainer": "W Walden",
+        "odds": 8.0,
+        "predicted_finish": 5.814,
+        "model_prob": 0.0606,
+        "market_prob": 0.1111,
+        "edge": -0.0505
+      },
+      {
+        "rank": 8,
+        "horse_name": "Magical Factor",
+        "jockey": "K Kimura",
+        "trainer": "Other",
+        "odds": 15.0,
+        "predicted_finish": 6.536,
+        "model_prob": 0.0375,
+        "market_prob": 0.0625,
+        "edge": -0.025
+      },
+      {
+        "rank": 9,
+        "horse_name": "Provider",
+        "jockey": "J J Hernandez",
+        "trainer": "P Eurton",
+        "odds": 10.0,
+        "predicted_finish": 6.583,
+        "model_prob": 0.0363,
+        "market_prob": 0.0909,
+        "edge": -0.0546
+      },
+      {
+        "rank": 10,
+        "horse_name": "Quiet Mischief",
+        "jockey": "V Cheminaud",
+        "trainer": "R Mott",
+        "odds": 30.0,
+        "predicted_finish": 7.401,
+        "model_prob": 0.021,
+        "market_prob": 0.0323,
+        "edge": -0.0112
+      },
+      {
+        "rank": 11,
+        "horse_name": "Still Sober",
+        "jockey": "J A Torres",
+        "trainer": "E Caramori",
+        "odds": 30.0,
+        "predicted_finish": 7.547,
+        "model_prob": 0.0191,
+        "market_prob": 0.0323,
+        "edge": -0.0132
+      },
+      {
+        "rank": 12,
+        "horse_name": "Ur Benja",
+        "jockey": "D Machado",
+        "trainer": "J L Aranha",
+        "odds": 30.0,
+        "predicted_finish": 7.775,
+        "model_prob": 0.0164,
+        "market_prob": 0.0323,
+        "edge": -0.0159
+      }
+    ],
+    "6": [
+      {
+        "rank": 1,
+        "horse_name": "Conquest Warrior",
+        "jockey": "L Saez",
+        "trainer": "Other",
+        "odds": 2.0,
+        "predicted_finish": 2.97,
+        "model_prob": 0.2663,
+        "market_prob": 0.3333,
+        "edge": -0.0671
+      },
+      {
+        "rank": 2,
+        "horse_name": "Authentic Strike",
+        "jockey": "F Prat",
+        "trainer": "Other",
+        "odds": 2.0,
+        "predicted_finish": 3.003,
+        "model_prob": 0.2605,
+        "market_prob": 0.3333,
+        "edge": -0.0729
+      },
+      {
+        "rank": 3,
+        "horse_name": "Excite",
+        "jockey": "J Alvarado",
+        "trainer": "W I Mott",
+        "odds": 4.0,
+        "predicted_finish": 3.264,
+        "model_prob": 0.2189,
+        "market_prob": 0.2,
+        "edge": 0.0189
+      },
+      {
+        "rank": 4,
+        "horse_name": "Curlin's Malibu",
+        "jockey": "I Ortiz, Jr.",
+        "trainer": "J Sharp",
+        "odds": 8.0,
+        "predicted_finish": 4.401,
+        "model_prob": 0.1026,
+        "market_prob": 0.1111,
+        "edge": -0.0085
+      },
+      {
+        "rank": 5,
+        "horse_name": "Original Sin",
+        "jockey": "T Gaffalione",
+        "trainer": "B P Walsh",
+        "odds": 5.0,
+        "predicted_finish": 5.004,
+        "model_prob": 0.0686,
+        "market_prob": 0.1667,
+        "edge": -0.098
+      },
+      {
+        "rank": 6,
+        "horse_name": "Hard as Life",
+        "jockey": "G Corrales",
+        "trainer": "M Nihei",
+        "odds": 11.0,
+        "predicted_finish": 5.445,
+        "model_prob": 0.0511,
+        "market_prob": 0.0833,
+        "edge": -0.0322
+      },
+      {
+        "rank": 7,
+        "horse_name": "Septarian",
+        "jockey": "J A Torres",
+        "trainer": "R Mott",
+        "odds": 15.0,
+        "predicted_finish": 6.149,
+        "model_prob": 0.032,
+        "market_prob": 0.0625,
+        "edge": -0.0305
+      }
+    ],
+    "7": [
+      {
+        "rank": 1,
+        "horse_name": "Arkhipov",
+        "jockey": "F Prat",
+        "trainer": "C C Brown",
+        "odds": 1.6,
+        "predicted_finish": 2.8,
+        "model_prob": 0.3228,
+        "market_prob": 0.3846,
+        "edge": -0.0618
+      },
+      {
+        "rank": 2,
+        "horse_name": "Ciro di Marzio",
+        "jockey": "J Rosario",
+        "trainer": "Other",
+        "odds": 4.0,
+        "predicted_finish": 3.739,
+        "model_prob": 0.1727,
+        "market_prob": 0.2,
+        "edge": -0.0273
+      },
+      {
+        "rank": 3,
+        "horse_name": "Noble Confessor",
+        "jockey": "T Gaffalione",
+        "trainer": "Other",
+        "odds": 3.0,
+        "predicted_finish": 4.052,
+        "model_prob": 0.1402,
+        "market_prob": 0.25,
+        "edge": -0.1098
+      },
+      {
+        "rank": 4,
+        "horse_name": "Love'm Or Liam",
+        "jockey": "J Alvarado",
+        "trainer": "W I Mott",
+        "odds": 6.0,
+        "predicted_finish": 4.502,
+        "model_prob": 0.1038,
+        "market_prob": 0.1429,
+        "edge": -0.039
+      },
+      {
+        "rank": 5,
+        "horse_name": "Sicilian Defense",
+        "jockey": "I Ortiz, Jr.",
+        "trainer": "C DeVaux",
+        "odds": 8.0,
+        "predicted_finish": 4.523,
+        "model_prob": 0.1024,
+        "market_prob": 0.1111,
+        "edge": -0.0087
+      },
+      {
+        "rank": 6,
+        "horse_name": "Cinister Cix",
+        "jockey": "W A Rodriguez",
+        "trainer": "Other",
+        "odds": 20.0,
+        "predicted_finish": 4.937,
+        "model_prob": 0.0777,
+        "market_prob": 0.0476,
+        "edge": 0.0301
+      },
+      {
+        "rank": 7,
+        "horse_name": "Rocky Joy",
+        "jockey": "L Machado",
+        "trainer": "J L Aranha",
+        "odds": 12.0,
+        "predicted_finish": 5.863,
+        "model_prob": 0.0419,
+        "market_prob": 0.0769,
+        "edge": -0.035
+      },
+      {
+        "rank": 8,
+        "horse_name": "Apophis",
+        "jockey": "K Kimura",
+        "trainer": "V H Oliver",
+        "odds": 30.0,
+        "predicted_finish": 6.852,
+        "model_prob": 0.0217,
+        "market_prob": 0.0323,
+        "edge": -0.0106
+      },
+      {
+        "rank": 9,
+        "horse_name": "Master of Light",
+        "jockey": "A Beschizza",
+        "trainer": "E Vaughan",
+        "odds": 30.0,
+        "predicted_finish": 7.229,
+        "model_prob": 0.0169,
+        "market_prob": 0.0323,
+        "edge": -0.0154
+      }
+    ],
+    "8": [
+      {
+        "rank": 1,
+        "horse_name": "Right Timing",
+        "jockey": "F Prat",
+        "trainer": "C C Brown",
+        "odds": 2.5,
+        "predicted_finish": 3.12,
+        "model_prob": 0.2743,
+        "market_prob": 0.2857,
+        "edge": -0.0114
+      },
+      {
+        "rank": 2,
+        "horse_name": "Haywinii",
+        "jockey": "L Machado",
+        "trainer": "B Colebrook",
+        "odds": 4.5,
+        "predicted_finish": 3.73,
+        "model_prob": 0.1826,
+        "market_prob": 0.1818,
+        "edge": 0.0008
+      },
+      {
+        "rank": 3,
+        "horse_name": "La Rascasse",
+        "jockey": "A Concepcion",
+        "trainer": "W Walden",
+        "odds": 6.0,
+        "predicted_finish": 4.491,
+        "model_prob": 0.11,
+        "market_prob": 0.1429,
+        "edge": -0.0329
+      },
+      {
+        "rank": 4,
+        "horse_name": "Al Ghadeer",
+        "jockey": "T Gaffalione",
+        "trainer": "A McKeever",
+        "odds": 8.0,
+        "predicted_finish": 4.559,
+        "model_prob": 0.1051,
+        "market_prob": 0.1111,
+        "edge": -0.006
+      },
+      {
+        "rank": 5,
+        "horse_name": "Epic Proud Mary",
+        "jockey": "J Rosario",
+        "trainer": "B A Lynch",
+        "odds": 10.0,
+        "predicted_finish": 5.607,
+        "model_prob": 0.0523,
+        "market_prob": 0.0909,
+        "edge": -0.0386
+      },
+      {
+        "rank": 6,
+        "horse_name": "She's Our Ten",
+        "jockey": "L Saez",
+        "trainer": "P Eurton",
+        "odds": 8.0,
+        "predicted_finish": 5.609,
+        "model_prob": 0.0522,
+        "market_prob": 0.1111,
+        "edge": -0.0589
+      },
+      {
+        "rank": 7,
+        "horse_name": "Belle",
+        "jockey": "K Kimura",
+        "trainer": "K Attard",
+        "odds": 12.0,
+        "predicted_finish": 5.69,
+        "model_prob": 0.0494,
+        "market_prob": 0.0769,
+        "edge": -0.0275
+      },
+      {
+        "rank": 8,
+        "horse_name": "Divine Passion",
+        "jockey": "B J Hernandez, Jr.",
+        "trainer": "K G McPeek",
+        "odds": 15.0,
+        "predicted_finish": 5.903,
+        "model_prob": 0.0429,
+        "market_prob": 0.0625,
+        "edge": -0.0196
+      },
+      {
+        "rank": 9,
+        "horse_name": "Arcana",
+        "jockey": "J Castellano",
+        "trainer": "I R Wilkes",
+        "odds": 10.0,
+        "predicted_finish": 5.949,
+        "model_prob": 0.0416,
+        "market_prob": 0.0909,
+        "edge": -0.0493
+      },
+      {
+        "rank": 10,
+        "horse_name": "Pharoah's Affair",
+        "jockey": "I Moncada",
+        "trainer": "K Vassilieva",
+        "odds": 20.0,
+        "predicted_finish": 6.282,
+        "model_prob": 0.0333,
+        "market_prob": 0.0476,
+        "edge": -0.0143
+      },
+      {
+        "rank": 11,
+        "horse_name": "Lets Shance It",
+        "jockey": "F De La Cruz",
+        "trainer": "A M West",
+        "odds": 30.0,
+        "predicted_finish": 6.351,
+        "model_prob": 0.0318,
+        "market_prob": 0.0323,
+        "edge": -0.0004
+      },
+      {
+        "rank": 12,
+        "horse_name": "Rose of San Antone",
+        "jockey": "E Morales",
+        "trainer": "J Ennis",
+        "odds": 20.0,
+        "predicted_finish": 6.746,
+        "model_prob": 0.0245,
+        "market_prob": 0.0476,
+        "edge": -0.0232
+      }
+    ],
+    "9": [
+      {
+        "rank": 1,
+        "horse_name": "Segesta",
+        "jockey": "F Prat",
+        "trainer": "C C Brown",
+        "odds": 3.5,
+        "predicted_finish": 3.338,
+        "model_prob": 0.223,
+        "market_prob": 0.2222,
+        "edge": 0.0008
+      },
+      {
+        "rank": 2,
+        "horse_name": "Lush Lips",
+        "jockey": "T Gaffalione",
+        "trainer": "B P Walsh",
+        "odds": 2.5,
+        "predicted_finish": 3.685,
+        "model_prob": 0.177,
+        "market_prob": 0.2857,
+        "edge": -0.1087
+      },
+      {
+        "rank": 3,
+        "horse_name": "Destino d'Oro",
+        "jockey": "J Alvarado",
+        "trainer": "B H Cox",
+        "odds": 4.0,
+        "predicted_finish": 3.927,
+        "model_prob": 0.1507,
+        "market_prob": 0.2,
+        "edge": -0.0493
+      },
+      {
+        "rank": 4,
+        "horse_name": "Dynamic Pricing",
+        "jockey": "I Ortiz, Jr.",
+        "trainer": "C C Brown",
+        "odds": 6.0,
+        "predicted_finish": 4.346,
+        "model_prob": 0.1139,
+        "market_prob": 0.1429,
+        "edge": -0.0289
+      },
+      {
+        "rank": 5,
+        "horse_name": "Expensive Queen",
+        "jockey": "L Saez",
+        "trainer": "B P Walsh",
+        "odds": 8.0,
+        "predicted_finish": 4.359,
+        "model_prob": 0.1129,
+        "market_prob": 0.1111,
+        "edge": 0.0018
+      },
+      {
+        "rank": 6,
+        "horse_name": "Aussie Girl",
+        "jockey": "B Curtis",
+        "trainer": "W Walden",
+        "odds": 8.0,
+        "predicted_finish": 4.503,
+        "model_prob": 0.1026,
+        "market_prob": 0.1111,
+        "edge": -0.0085
+      },
+      {
+        "rank": 7,
+        "horse_name": "Medoro",
+        "jockey": "J J Hernandez",
+        "trainer": "P Eurton",
+        "odds": 12.0,
+        "predicted_finish": 5.926,
+        "model_prob": 0.0397,
+        "market_prob": 0.0769,
+        "edge": -0.0372
+      },
+      {
+        "rank": 8,
+        "horse_name": "Deep Satin",
+        "jockey": "B J Hernandez, Jr.",
+        "trainer": "C DeVaux",
+        "odds": 20.0,
+        "predicted_finish": 6.119,
+        "model_prob": 0.0349,
+        "market_prob": 0.0476,
+        "edge": -0.0127
+      },
+      {
+        "rank": 9,
+        "horse_name": "Pin Up Betty",
+        "jockey": "J Rosario",
+        "trainer": "M J Maker",
+        "odds": 20.0,
+        "predicted_finish": 6.329,
+        "model_prob": 0.0304,
+        "market_prob": 0.0476,
+        "edge": -0.0172
+      },
+      {
+        "rank": 10,
+        "horse_name": "Fast Market",
+        "jockey": "S Marin",
+        "trainer": "J P Terranova II",
+        "odds": 30.0,
+        "predicted_finish": 7.398,
+        "model_prob": 0.0149,
+        "market_prob": 0.0323,
+        "edge": -0.0174
+      }
+    ],
+    "10": [
+      {
+        "rank": 1,
+        "horse_name": "Ezum",
+        "jockey": "F Prat",
+        "trainer": "B H Cox",
+        "odds": 2.0,
+        "predicted_finish": 3.425,
+        "model_prob": 0.2369,
+        "market_prob": 0.3333,
+        "edge": -0.0964
+      },
+      {
+        "rank": 2,
+        "horse_name": "Confessional",
+        "jockey": "I Ortiz, Jr.",
+        "trainer": "B H Cox",
+        "odds": 3.5,
+        "predicted_finish": 3.57,
+        "model_prob": 0.2151,
+        "market_prob": 0.2222,
+        "edge": -0.0072
+      },
+      {
+        "rank": 3,
+        "horse_name": "Corona de Oro",
+        "jockey": "B J Hernandez, Jr.",
+        "trainer": "D Stewart",
+        "odds": 6.0,
+        "predicted_finish": 4.284,
+        "model_prob": 0.1336,
+        "market_prob": 0.1429,
+        "edge": -0.0093
+      },
+      {
+        "rank": 4,
+        "horse_name": "The Hell We Did",
+        "jockey": "L Saez",
+        "trainer": "Other",
+        "odds": 8.0,
+        "predicted_finish": 4.509,
+        "model_prob": 0.115,
+        "market_prob": 0.1111,
+        "edge": 0.0038
+      },
+      {
+        "rank": 5,
+        "horse_name": "I Did I Did",
+        "jockey": "J J Hernandez",
+        "trainer": "M J Maker",
+        "odds": 10.0,
+        "predicted_finish": 5.407,
+        "model_prob": 0.0632,
+        "market_prob": 0.0909,
+        "edge": -0.0277
+      },
+      {
+        "rank": 6,
+        "horse_name": "Enforced Agenda",
+        "jockey": "J Castellano",
+        "trainer": "G Weaver",
+        "odds": 10.0,
+        "predicted_finish": 5.409,
+        "model_prob": 0.0631,
+        "market_prob": 0.0909,
+        "edge": -0.0278
+      },
+      {
+        "rank": 7,
+        "horse_name": "Exhibition Only",
+        "jockey": "R Silvera",
+        "trainer": "Other",
+        "odds": 10.0,
+        "predicted_finish": 5.608,
+        "model_prob": 0.0552,
+        "market_prob": 0.0909,
+        "edge": -0.0357
+      },
+      {
+        "rank": 8,
+        "horse_name": "Decisive Win",
+        "jockey": "A Fresu",
+        "trainer": "D F O'Neill",
+        "odds": 15.0,
+        "predicted_finish": 5.991,
+        "model_prob": 0.0428,
+        "market_prob": 0.0625,
+        "edge": -0.0197
+      },
+      {
+        "rank": 9,
+        "horse_name": "Mister T",
+        "jockey": "M Murrill",
+        "trainer": "C Galindo-Torres",
+        "odds": 30.0,
+        "predicted_finish": 6.514,
+        "model_prob": 0.0302,
+        "market_prob": 0.0323,
+        "edge": -0.0021
+      },
+      {
+        "rank": 10,
+        "horse_name": "Ramblin",
+        "jockey": "M Gutierrez",
+        "trainer": "B C Barnett",
+        "odds": 20.0,
+        "predicted_finish": 6.902,
+        "model_prob": 0.0233,
+        "market_prob": 0.0476,
+        "edge": -0.0243
+      },
+      {
+        "rank": 11,
+        "horse_name": "Trendsetter",
+        "jockey": "K Kimura",
+        "trainer": "B Colebrook",
+        "odds": 20.0,
+        "predicted_finish": 7.014,
+        "model_prob": 0.0216,
+        "market_prob": 0.0476,
+        "edge": -0.026
+      }
+    ],
+    "11": [
+      {
+        "rank": 1,
+        "horse_name": "Heeere's Johnny",
+        "jockey": "J Castellano",
+        "trainer": "Other",
+        "odds": 3.5,
+        "predicted_finish": 3.61,
+        "model_prob": 0.219,
+        "market_prob": 0.2222,
+        "edge": -0.0032
+      },
+      {
+        "rank": 2,
+        "horse_name": "Royal Guard",
+        "jockey": "I Ortiz, Jr.",
+        "trainer": "B H Cox",
+        "odds": 5.0,
+        "predicted_finish": 3.831,
+        "model_prob": 0.189,
+        "market_prob": 0.1667,
+        "edge": 0.0224
+      },
+      {
+        "rank": 3,
+        "horse_name": "Coordinator",
+        "jockey": "F Prat",
+        "trainer": "C C Brown",
+        "odds": 4.0,
+        "predicted_finish": 4.019,
+        "model_prob": 0.1667,
+        "market_prob": 0.2,
+        "edge": -0.0333
+      },
+      {
+        "rank": 4,
+        "horse_name": "West End Kid",
+        "jockey": "T Gaffalione",
+        "trainer": "W Walden",
+        "odds": 4.5,
+        "predicted_finish": 4.657,
+        "model_prob": 0.109,
+        "market_prob": 0.1818,
+        "edge": -0.0728
+      },
+      {
+        "rank": 5,
+        "horse_name": "Starmetal",
+        "jockey": "W A Rodriguez",
+        "trainer": "M Nihei",
+        "odds": 8.0,
+        "predicted_finish": 5.072,
+        "model_prob": 0.0826,
+        "market_prob": 0.1111,
+        "edge": -0.0285
+      },
+      {
+        "rank": 6,
+        "horse_name": "Sharons Angels",
+        "jockey": "L Saez",
+        "trainer": "Other",
+        "odds": 15.0,
+        "predicted_finish": 5.936,
+        "model_prob": 0.0465,
+        "market_prob": 0.0625,
+        "edge": -0.016
+      },
+      {
+        "rank": 7,
+        "horse_name": "Soulman",
+        "jockey": "L Machado",
+        "trainer": "C A Hartman",
+        "odds": 10.0,
+        "predicted_finish": 6.027,
+        "model_prob": 0.0437,
+        "market_prob": 0.0909,
+        "edge": -0.0472
+      },
+      {
+        "rank": 8,
+        "horse_name": "Terre Haute",
+        "jockey": "A Beschizza",
+        "trainer": "J Ennis",
+        "odds": 12.0,
+        "predicted_finish": 6.241,
+        "model_prob": 0.0379,
+        "market_prob": 0.0769,
+        "edge": -0.039
+      },
+      {
+        "rank": 9,
+        "horse_name": "High Honors",
+        "jockey": "B Curtis",
+        "trainer": "A M Meah",
+        "odds": 20.0,
+        "predicted_finish": 6.428,
+        "model_prob": 0.0335,
+        "market_prob": 0.0476,
+        "edge": -0.0142
+      },
+      {
+        "rank": 10,
+        "horse_name": "Mush Carey",
+        "jockey": "D Sheehy",
+        "trainer": "C Murphy",
+        "odds": 20.0,
+        "predicted_finish": 6.575,
+        "model_prob": 0.0303,
+        "market_prob": 0.0476,
+        "edge": -0.0173
+      },
+      {
+        "rank": 11,
+        "horse_name": "Edzo Said So",
+        "jockey": "M Gutierrez",
+        "trainer": "Other",
+        "odds": 30.0,
+        "predicted_finish": 7.092,
+        "model_prob": 0.0215,
+        "market_prob": 0.0323,
+        "edge": -0.0108
+      },
+      {
+        "rank": 12,
+        "horse_name": "Penn Star",
+        "jockey": "E Morales",
+        "trainer": "Other",
+        "odds": 30.0,
+        "predicted_finish": 7.185,
+        "model_prob": 0.0202,
+        "market_prob": 0.0323,
+        "edge": -0.0121
+      }
+    ]
+  }
+}

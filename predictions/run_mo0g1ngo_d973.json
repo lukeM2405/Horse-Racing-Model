@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-04-15T19:29:30.954088+00:00",
+  "card_date": "2026-04-16",
+  "races": {
+    "1": [
+      {
+        "rank": 1,
+        "horse_name": "Emirates Affair",
+        "jockey": "I Ortiz, Jr.",
+        "trainer": "R B Hess, Jr.",
+        "odds": 0.6,
+        "predicted_finish": 1.815,
+        "model_prob": 0.6206,
+        "market_prob": 0.625,
+        "edge": -0.0044
+      },
+      {
+        "rank": 2,
+        "horse_name": "Coastline Hottie",
+        "jockey": "L Machado",
+        "trainer": "C W Axmaker",
+        "odds": 4.0,
+        "predicted_finish": 3.518,
+        "model_prob": 0.1994,
+        "market_prob": 0.2,
+        "edge": -0.0006
+      },
+      {
+        "rank": 3,
+        "horse_name": "So Far So Good",
+        "jockey": "W Antongeorgi III",
+        "trainer": "A Decker",
+        "odds": 12.0,
+        "predicted_finish": 5.631,
+        "model_prob": 0.0487,
+        "market_prob": 0.0769,
+        "edge": -0.0282
+      },
+      {
+        "rank": 4,
+        "horse_name": "Devil of Paradis",
+        "jockey": "C Roman",
+        "trainer": "M Evans II",
+        "odds": 25.0,
+        "predicted_finish": 5.682,
+        "model_prob": 0.0471,
+        "market_prob": 0.0385,
+        "edge": 0.0087
+      },
+      {
+        "rank": 5,
+        "horse_name": "Ask Amanda",
+        "jockey": "W A Rodriguez",
+        "trainer": "J Antonuik",
+        "odds": 20.0,
+        "predicted_finish": 5.731,
+        "model_prob": 0.0456,
+        "market_prob": 0.0476,
+        "edge": -0.002
+      },
+      {
+        "rank": 6,
+        "horse_name": "Scoop",
+        "jockey": "A Calleja",
+        "trainer": "M Salas",
+        "odds": 30.0,
+        "predicted_finish": 5.983,
+        "model_prob": 0.0385,
+        "market_prob": 0.0323,
+        "edge": 0.0063
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>GOODTrackBets — Keeneland</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>GOODTrackBets</h1>
+  <div id="card-banner" class="card-banner"></div>
+  <div class="sub">
+    <select id="date-picker" class="date-picker" aria-label="Race date"></select>
+    <span id="status-pill" class="pill pill-idle">idle</span>
+  </div>
+</header>
+
+<nav id="race-tabs" class="race-tabs"></nav>
+
+<main id="race-panel">
+  <section id="race-header" class="race-header">
+    <h2 id="race-title">Loading…</h2>
+    <div id="race-meta" class="race-meta"></div>
+  </section>
+
+  <table id="entries-table" class="entries">
+    <thead>
+      <tr>
+        <th class="col-scratch">✕</th>
+        <th class="col-pp">PP</th>
+        <th class="col-horse">Horse / J / T</th>
+        <th class="col-odds">Odds</th>
+      </tr>
+    </thead>
+    <tbody id="entries-body"></tbody>
+  </table>
+
+  <div class="controls">
+    <button id="add-horse-btn" class="btn btn-secondary">+ Add horse</button>
+    <button id="run-btn" class="btn btn-primary">Run Model</button>
+  </div>
+
+  <section id="results-section" class="results hidden">
+    <h3>Predictions</h3>
+    <div id="results-meta" class="results-meta"></div>
+    <table class="results-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Horse</th>
+          <th>Gate</th>
+          <th>Pred</th>
+          <th>Odds</th>
+          <th>Model %</th>
+          <th>Mkt %</th>
+          <th>Edge</th>
+        </tr>
+      </thead>
+      <tbody id="results-body"></tbody>
+    </table>
+  </section>
+
+  <section id="bets-section" class="bets hidden">
+    <h3>Recommended Bets</h3>
+    <p class="bets-disclaimer">Estimated from win odds. Actual exotic payouts vary.</p>
+    <div id="bets-grid" class="bets-grid"></div>
+  </section>
+</main>
+
+<!-- Add horse modal -->
+<div id="add-modal" class="modal hidden">
+  <div class="modal-box">
+    <h3>Add horse (also-eligible)</h3>
+    <label>Horse name<input id="add-name" type="text" /></label>
+    <label>Jockey<input id="add-jockey" type="text" /></label>
+    <label>Trainer<input id="add-trainer" type="text" /></label>
+    <label>Post position<input id="add-post" type="number" min="1" max="20" /></label>
+    <label>Live odds (X-to-1)<input id="add-odds" type="number" step="0.1" min="0" /></label>
+    <p class="modal-note">
+      Past-performance stats will use model defaults. Accuracy may be lower for
+      AE horses.
+    </p>
+    <div class="modal-buttons">
+      <button id="add-cancel" class="btn btn-secondary">Cancel</button>
+      <button id="add-confirm" class="btn btn-primary">Add</button>
+    </div>
+  </div>
+</div>
+
+<!-- PAT modal -->
+<div id="pat-modal" class="modal hidden">
+  <div class="modal-box">
+    <h3>GitHub token</h3>
+    <p class="modal-note">
+      Needed to trigger the prediction workflow. Fine-grained PAT scoped to
+      <code>greygoodwin/GOODTrackBets</code> with <code>Actions: write</code>
+      and <code>Contents: read</code>. Stored in your browser only.
+    </p>
+    <label>Token<input id="pat-input" type="password" autocomplete="off" /></label>
+    <div class="modal-buttons">
+      <button id="pat-cancel" class="btn btn-secondary">Cancel</button>
+      <button id="pat-save" class="btn btn-primary">Save</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <button id="reset-pat-btn" class="link-btn">reset token</button>
+  <span class="sep">&middot;</span>
+  <button id="reload-btn" class="link-btn">reload card</button>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
