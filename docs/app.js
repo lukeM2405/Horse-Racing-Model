@@ -9,7 +9,7 @@
 
 // ---------- Config ----------
 const OWNER = "lukeM2405";
-const REPO = "horse-Racing-Model";
+const REPO = "Horse-Racing-Model";
 const BRANCH = "main";
 
 // Directory holding the day-cards and filename pattern.
