@@ -8,7 +8,7 @@
  */
 
 // ---------- Config ----------
-const OWNER = "greygoodwin";
+const OWNER = "lukeM2405";
 const REPO = "GOODTrackBets";
 const BRANCH = "main";
 
